@@ -1,0 +1,32 @@
+.poke{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: rem;
+}
+.poke-img{
+    height: 280px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 4rem;
+}
+img{
+    padding: 0.5rem;
+    border-radius: 5cap;
+    transition: background-color 1s ease;
+}
+img:hover{
+    background-color: #061a52;
+}
+.poke-name{
+    color: rgb(130, 205, 255);
+    letter-spacing: 0.4rem;
+    font-size: 23px;
+    font-weight:600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

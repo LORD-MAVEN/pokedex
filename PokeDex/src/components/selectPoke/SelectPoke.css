@@ -1,0 +1,117 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.template{
+    background-image: linear-gradient(to bottom, #82b1ff, #2962ff);
+    border-radius: 1rem;
+    width: 470px;
+    border: 8px outset #0a3a6a;
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+    padding: 1rem;
+    box-shadow: 0px 80px 200px rgba(98, 179, 255, 0.74);
+}
+
+.about{
+    border: 2px inset ;
+    background-color: #9dc5f5;
+    border-radius: 1rem;
+    padding: 3px;
+    display: flex;
+    width: 380px;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.types{
+    border: 2px inset ;
+    background-color: #9dc5f5;
+    border-radius: 1rem;
+    padding: 3px;
+    display: flex;
+    width: 380px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.weight_height{
+    border: 2px inset ;
+    border-radius: 1rem;
+    padding: 3px;
+    background-color: #9dc5f5;
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    font-size: 23px;
+}
+
+.img{
+    background-color:  #0d47a1;
+    border-radius: 5rem;
+    width: 280px;
+    height: 250px;
+    transition-property: background-color, 0.5s , ease;
+}
+
+.img:hover{
+    background-color:  #0d47a1;
+}
+
+.back{
+    height: 35px;
+    border-radius: 1rem;
+    background-color: #9dc5f5;
+    width: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #01579b;
+    transition-property: background-color, 0.5s , ease, color, 0.5s, ease, border-color, 2s ease;
+}
+
+.back:hover{
+    background-color: #6ab7ff;
+    color: #ff5252;
+    border-color: #ff5252;
+}
+
+.moves{
+    padding: 5px;
+    border-radius: 15px;
+    border: 5px outset #d6d6d6;
+    background-color: #66b5f5e8;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 140px;
+}
+
+.set1, .set2, .set3{
+    color: rgba(5, 35, 117, 0.808);
+    background-color: #66b4f5d7;
+    height: 50px;
+    font-size: 17px;
+    gap: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.set1>div, .set2>div, .set3>div{
+    background-color: #d3eaff;
+    border-radius: 1rem;
+    border: 2px inset ;
+    padding: 5px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

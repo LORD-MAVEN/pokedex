@@ -1,0 +1,13 @@
+.search-bar{
+    background-color: rgb(8, 8, 88);
+}
+input{
+    background-color: rgb(28, 106, 140);
+    padding: 12px;
+    font-size: 23px;
+    color: rgb(5, 5, 73);
+    display: flex;
+    width: 500px;
+    height: 2rem;
+    border-radius: 2rem;
+}
